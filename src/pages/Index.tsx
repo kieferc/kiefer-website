@@ -18,16 +18,20 @@ const Index = () => {
         <div className="relative max-w-4xl mx-auto text-center animate-fade-in">
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-white text-4xl font-bold shadow-xl">
-              JD
+              KC
             </div>
           </div>
           
           <h1 className="text-5xl sm:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            John Doe
+            Kiefer Court
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Full-Stack Developer & UI/UX Designer crafting beautiful digital experiences
+            BA Computer Science | Certificate in Applied Geospatial Technologies
+          </p>
+
+          <p className="text-xl sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+            Recent University of Louisville graduate seeking job in the computer industry
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">
