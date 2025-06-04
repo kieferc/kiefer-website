@@ -98,17 +98,17 @@ const Index = () => {
       <footer className="border-t py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-6">
-            <a href="#" title="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://github.com/kieferc" title="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" title="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://www.linkedin.com/in/kiefer-court-a74075264/" title="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" title="Email" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="mailto:Kiefer@kiefercourt.com" title="Email" className="text-muted-foreground hover:text-foreground transition-colors">
               <Mail className="h-6 w-6" />
             </a>
           </div>
-          <p className="text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+          <p className="text-muted-foreground">&copy; 2024 Kiefer Court. All rights reserved.</p>
         </div>
       </footer>
     </div>
