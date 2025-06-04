@@ -98,13 +98,13 @@ const Index = () => {
       <footer className="border-t py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-6">
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#" title="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#" title="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#" title="Email" className="text-muted-foreground hover:text-foreground transition-colors">
               <Mail className="h-6 w-6" />
             </a>
           </div>
