@@ -86,7 +86,7 @@ const Index = () => {
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center group-hover:bg-purple-200 dark:group-hover:bg-purple-900/50 transition-colors">
                   <Mail className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Get In Touch</h3>
+                <h3 className="text-xl font-semibold mb-2">Contact Infomration</h3>
                 <p className="text-muted-foreground">Let's discuss your next project</p>
               </Link>
             </Card>
@@ -108,7 +108,7 @@ const Index = () => {
               <Mail className="h-6 w-6" />
             </a>
           </div>
-          <p className="text-muted-foreground">&copy; 2024 Kiefer Court. All rights reserved.</p>
+          <p className="text-muted-foreground">&copy; 2025 Kiefer Court. </p>
         </div>
       </footer>
     </div>
