@@ -34,25 +34,28 @@ const Index = () => {
             Recent University of Louisville graduate seeking job in the computer industry
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <Badge variant="secondary" className="px-4 py-2 text-sm">React</Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">TypeScript</Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">Node.js</Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">Python</Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm">Design</Badge>
-          </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-start">
             <Button asChild size="lg" className="group">
               <Link to="/projects">
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="group">
-              <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              Download Resume
-            </Button>
+
+            <div className="flex flex-col gap-4">
+              <Button variant="outline" size="lg" className="group">
+                <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+                Download GIS Resume
+              </Button>
+              <Button variant="outline" size="lg" className="group">
+                <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+                Download CS Resume
+              </Button>
+              <Button variant="outline" size="lg" className="group">
+                <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+                Download Cybersecurity Resume
+              </Button>
+            </div>
           </div>
         </div>
       </section>
