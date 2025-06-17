@@ -182,7 +182,7 @@ const About = () => {
               <CardContent>
                 <CardDescription className="text-base">
                   I love spending time outdoors. Name any outdoor activity and I will probably enjoy it. My favorites
-                  include hiking, camping, and fishing. I have been to many national parks and state parks around the country
+                  include hiking, camping, fishing, and biking. I have been to many national parks and state parks around the country
                   and even in Canada. My favorites include Acadia in Maine, Banff in Canada, and Crater Lake in Oregon.
                 </CardDescription>
               </CardContent>
@@ -193,14 +193,15 @@ const About = () => {
               <CardHeader>
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">
-                    <div className="text-blue-600 dark:text-blue-400">🎧</div>
+                    <div className="text-blue-600 dark:text-blue-400">🌎</div>
                   </div>
-                  <CardTitle className="text-lg">Music</CardTitle>
+                  <CardTitle className="text-lg">Geography</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Whether it’s coding or commuting, I always have music on. I’m especially into alternative rock and chill beats.
+                  Ever since I was a kid I loved staring at maps and memorizing geography facts. I am pretty good with countries, 
+                  capitals, and flags around the world. I hope to one day be able to see the globe and everything it has to offer.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -210,14 +211,17 @@ const About = () => {
               <CardHeader>
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">
-                    <div className="text-blue-600 dark:text-blue-400">🎧</div>
+                    <div className="text-blue-600 dark:text-blue-400">🏃</div>
                   </div>
-                  <CardTitle className="text-lg">Music</CardTitle>
+                  <CardTitle className="text-lg">Running</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Whether it’s coding or commuting, I always have music on. I’m especially into alternative rock and chill beats.
+                  I started running in high school and have continued to enjoy it ever since.
+                  I have run several 5Ks and two half marathons. In 2022 I placed 1st in my age group in the Paducah Half Marathon, 
+                  finishing with a time of 1:37. Running is a great way to get outside and stay in shape. I hope to 
+                  run a full marathon in the near future.
                 </CardDescription>
               </CardContent>
             </Card>
