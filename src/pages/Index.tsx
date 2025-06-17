@@ -35,12 +35,12 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-start">
-            <Button asChild size="lg" className="group">
+            {/*<Button asChild size="lg" className="group">
               <Link to="/projects">
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
-            </Button>
+            </Button>*/}
 
             <div className="flex flex-col gap-4">
               <Button variant="outline" size="lg" className="group">

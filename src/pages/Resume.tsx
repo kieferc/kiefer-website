@@ -67,14 +67,26 @@ const Resume = () => {
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12 animate-fade-in">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-6">Resume</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6">Resumes</h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Download my complete resume or explore my experience below.
+            Depending on the career path, I have created multiple resumes to highlight my skills and experiences in different areas.
           </p>
+
+          <div className="flex flex-col gap-4 max-w-lg text-center mx-auto">
           <Button size="lg" className="group">
             <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-            Download PDF Resume
+            Download GIS Resume
           </Button>
+          <Button size="lg" className="group">
+            <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+            Download CS Resume
+          </Button>
+          <Button size="lg" className="group">
+            <Download className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+            Download Cybersecurity Resume
+          </Button>
+          </div>
+
         </div>
 
         {/* Experience Section */}
